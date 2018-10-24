@@ -1,0 +1,709 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		801D6212211852820096B35F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 801D6211211852820096B35F /* AppDelegate.m */; };
+		801D621A211852860096B35F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 801D6219211852860096B35F /* Assets.xcassets */; };
+		801D6220211852860096B35F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 801D621F211852860096B35F /* main.m */; };
+		801D622A211852860096B35F /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 801D6229211852860096B35F /* _____Tests.m */; };
+		801D6235211852860096B35F /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 801D6234211852860096B35F /* _____UITests.m */; };
+		801D6249211853B20096B35F /* DCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 801D6248211853B20096B35F /* DCTabBarController.m */; };
+		801D624C211854000096B35F /* DCHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 801D624B211854000096B35F /* DCHomeViewController.m */; };
+		801D624F2118540C0096B35F /* DCActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 801D624E2118540C0096B35F /* DCActivityViewController.m */; };
+		801D6252211854120096B35F /* DCMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 801D6251211854120096B35F /* DCMineViewController.m */; };
+		801D6259211859A60096B35F /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 801D6258211859A60096B35F /* UIView+Extension.m */; };
+		801D6262211860A40096B35F /* DCGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 801D6261211860A40096B35F /* DCGuideViewController.m */; };
+		80E011D4211ACF3B002B199F /* DCPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E011D3211ACF3B002B199F /* DCPopView.m */; };
+		80FD10F4211D3E8400609B3F /* DCTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FD10F3211D3E8400609B3F /* DCTextView.m */; };
+		F507B361FD3ADD95F6C18F59 /* libPods-引导页提示.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD88595AB0D203754FAC78D /* libPods-引导页提示.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		801D6226211852860096B35F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 801D6205211852820096B35F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 801D620C211852820096B35F;
+			remoteInfo = "引导页提示";
+		};
+		801D6231211852860096B35F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 801D6205211852820096B35F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 801D620C211852820096B35F;
+			remoteInfo = "引导页提示";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FD88595AB0D203754FAC78D /* libPods-引导页提示.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-引导页提示.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		801D620D211852820096B35F /* 引导页提示.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "引导页提示.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		801D6210211852820096B35F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		801D6211211852820096B35F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		801D6219211852860096B35F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		801D621E211852860096B35F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		801D621F211852860096B35F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		801D6225211852860096B35F /* 引导页提示Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "引导页提示Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		801D6229211852860096B35F /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		801D622B211852860096B35F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		801D6230211852860096B35F /* 引导页提示UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "引导页提示UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		801D6234211852860096B35F /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
+		801D6236211852860096B35F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		801D62422118529D0096B35F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		801D6247211853B20096B35F /* DCTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCTabBarController.h; sourceTree = "<group>"; };
+		801D6248211853B20096B35F /* DCTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCTabBarController.m; sourceTree = "<group>"; };
+		801D624A211854000096B35F /* DCHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCHomeViewController.h; sourceTree = "<group>"; };
+		801D624B211854000096B35F /* DCHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCHomeViewController.m; sourceTree = "<group>"; };
+		801D624D2118540C0096B35F /* DCActivityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCActivityViewController.h; sourceTree = "<group>"; };
+		801D624E2118540C0096B35F /* DCActivityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCActivityViewController.m; sourceTree = "<group>"; };
+		801D6250211854120096B35F /* DCMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCMineViewController.h; sourceTree = "<group>"; };
+		801D6251211854120096B35F /* DCMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCMineViewController.m; sourceTree = "<group>"; };
+		801D6257211859A50096B35F /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		801D6258211859A60096B35F /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		801D625D21185FDA0096B35F /* DCDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCDefine.h; sourceTree = "<group>"; };
+		801D6260211860A40096B35F /* DCGuideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCGuideViewController.h; sourceTree = "<group>"; };
+		801D6261211860A40096B35F /* DCGuideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCGuideViewController.m; sourceTree = "<group>"; };
+		80E011D2211ACF3B002B199F /* DCPopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCPopView.h; sourceTree = "<group>"; };
+		80E011D3211ACF3B002B199F /* DCPopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCPopView.m; sourceTree = "<group>"; };
+		80FD10F2211D3E8400609B3F /* DCTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCTextView.h; sourceTree = "<group>"; };
+		80FD10F3211D3E8400609B3F /* DCTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCTextView.m; sourceTree = "<group>"; };
+		993CD2735C58EB854AFA496E /* Pods-引导页提示.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-引导页提示.debug.xcconfig"; path = "Pods/Target Support Files/Pods-引导页提示/Pods-引导页提示.debug.xcconfig"; sourceTree = "<group>"; };
+		C60F2089C22361452FF5CA4C /* Pods-引导页提示.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-引导页提示.release.xcconfig"; path = "Pods/Target Support Files/Pods-引导页提示/Pods-引导页提示.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		801D620A211852820096B35F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F507B361FD3ADD95F6C18F59 /* libPods-引导页提示.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801D6222211852860096B35F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801D622D211852860096B35F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00C1C3212CDAB216C0EFDFFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FD88595AB0D203754FAC78D /* libPods-引导页提示.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5ED702AD2D9F97E03AD05AB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				993CD2735C58EB854AFA496E /* Pods-引导页提示.debug.xcconfig */,
+				C60F2089C22361452FF5CA4C /* Pods-引导页提示.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		801D6204211852820096B35F = {
+			isa = PBXGroup;
+			children = (
+				801D620F211852820096B35F /* 引导页提示 */,
+				801D6228211852860096B35F /* 引导页提示Tests */,
+				801D6233211852860096B35F /* 引导页提示UITests */,
+				801D620E211852820096B35F /* Products */,
+				5ED702AD2D9F97E03AD05AB7 /* Pods */,
+				00C1C3212CDAB216C0EFDFFE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		801D620E211852820096B35F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				801D620D211852820096B35F /* 引导页提示.app */,
+				801D6225211852860096B35F /* 引导页提示Tests.xctest */,
+				801D6230211852860096B35F /* 引导页提示UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		801D620F211852820096B35F /* 引导页提示 */ = {
+			isa = PBXGroup;
+			children = (
+				801D6246211853340096B35F /* Main */,
+				801D6243211853340096B35F /* HomeViewController */,
+				801D6245211853340096B35F /* ActivityViewController */,
+				801D6244211853340096B35F /* Mine */,
+				801D6256211854720096B35F /* Resource */,
+				801D6253211854710096B35F /* Other */,
+				801D6254211854710096B35F /* Extension */,
+				801D6219211852860096B35F /* Assets.xcassets */,
+				801D621E211852860096B35F /* Info.plist */,
+				801D621F211852860096B35F /* main.m */,
+				801D62422118529D0096B35F /* PrefixHeader.pch */,
+			);
+			path = "引导页提示";
+			sourceTree = "<group>";
+		};
+		801D6228211852860096B35F /* 引导页提示Tests */ = {
+			isa = PBXGroup;
+			children = (
+				801D6229211852860096B35F /* _____Tests.m */,
+				801D622B211852860096B35F /* Info.plist */,
+			);
+			path = "引导页提示Tests";
+			sourceTree = "<group>";
+		};
+		801D6233211852860096B35F /* 引导页提示UITests */ = {
+			isa = PBXGroup;
+			children = (
+				801D6234211852860096B35F /* _____UITests.m */,
+				801D6236211852860096B35F /* Info.plist */,
+			);
+			path = "引导页提示UITests";
+			sourceTree = "<group>";
+		};
+		801D6243211853340096B35F /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				801D624A211854000096B35F /* DCHomeViewController.h */,
+				801D624B211854000096B35F /* DCHomeViewController.m */,
+				80E011D2211ACF3B002B199F /* DCPopView.h */,
+				80E011D3211ACF3B002B199F /* DCPopView.m */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		801D6244211853340096B35F /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				801D6250211854120096B35F /* DCMineViewController.h */,
+				801D6251211854120096B35F /* DCMineViewController.m */,
+				80FD10F2211D3E8400609B3F /* DCTextView.h */,
+				80FD10F3211D3E8400609B3F /* DCTextView.m */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		801D6245211853340096B35F /* ActivityViewController */ = {
+			isa = PBXGroup;
+			children = (
+				801D624D2118540C0096B35F /* DCActivityViewController.h */,
+				801D624E2118540C0096B35F /* DCActivityViewController.m */,
+				801D6260211860A40096B35F /* DCGuideViewController.h */,
+				801D6261211860A40096B35F /* DCGuideViewController.m */,
+			);
+			path = ActivityViewController;
+			sourceTree = "<group>";
+		};
+		801D6246211853340096B35F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				801D6210211852820096B35F /* AppDelegate.h */,
+				801D6211211852820096B35F /* AppDelegate.m */,
+				801D6247211853B20096B35F /* DCTabBarController.h */,
+				801D6248211853B20096B35F /* DCTabBarController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		801D6253211854710096B35F /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				801D625D21185FDA0096B35F /* DCDefine.h */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		801D6254211854710096B35F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				801D6257211859A50096B35F /* UIView+Extension.h */,
+				801D6258211859A60096B35F /* UIView+Extension.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		801D6256211854720096B35F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		801D620C211852820096B35F /* 引导页提示 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 801D6239211852860096B35F /* Build configuration list for PBXNativeTarget "引导页提示" */;
+			buildPhases = (
+				7D59C0AB6C76A308EEC9AAC5 /* [CP] Check Pods Manifest.lock */,
+				801D6209211852820096B35F /* Sources */,
+				801D620A211852820096B35F /* Frameworks */,
+				801D620B211852820096B35F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "引导页提示";
+			productName = "引导页提示";
+			productReference = 801D620D211852820096B35F /* 引导页提示.app */;
+			productType = "com.apple.product-type.application";
+		};
+		801D6224211852860096B35F /* 引导页提示Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 801D623C211852860096B35F /* Build configuration list for PBXNativeTarget "引导页提示Tests" */;
+			buildPhases = (
+				801D6221211852860096B35F /* Sources */,
+				801D6222211852860096B35F /* Frameworks */,
+				801D6223211852860096B35F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				801D6227211852860096B35F /* PBXTargetDependency */,
+			);
+			name = "引导页提示Tests";
+			productName = "引导页提示Tests";
+			productReference = 801D6225211852860096B35F /* 引导页提示Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		801D622F211852860096B35F /* 引导页提示UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 801D623F211852860096B35F /* Build configuration list for PBXNativeTarget "引导页提示UITests" */;
+			buildPhases = (
+				801D622C211852860096B35F /* Sources */,
+				801D622D211852860096B35F /* Frameworks */,
+				801D622E211852860096B35F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				801D6232211852860096B35F /* PBXTargetDependency */,
+			);
+			name = "引导页提示UITests";
+			productName = "引导页提示UITests";
+			productReference = 801D6230211852860096B35F /* 引导页提示UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		801D6205211852820096B35F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "中都格罗唯视";
+				TargetAttributes = {
+					801D620C211852820096B35F = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					801D6224211852860096B35F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 801D620C211852820096B35F;
+					};
+					801D622F211852860096B35F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 801D620C211852820096B35F;
+					};
+				};
+			};
+			buildConfigurationList = 801D6208211852820096B35F /* Build configuration list for PBXProject "引导页提示" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 801D6204211852820096B35F;
+			productRefGroup = 801D620E211852820096B35F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				801D620C211852820096B35F /* 引导页提示 */,
+				801D6224211852860096B35F /* 引导页提示Tests */,
+				801D622F211852860096B35F /* 引导页提示UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		801D620B211852820096B35F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801D621A211852860096B35F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801D6223211852860096B35F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801D622E211852860096B35F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7D59C0AB6C76A308EEC9AAC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-引导页提示-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		801D6209211852820096B35F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FD10F4211D3E8400609B3F /* DCTextView.m in Sources */,
+				801D624C211854000096B35F /* DCHomeViewController.m in Sources */,
+				801D6220211852860096B35F /* main.m in Sources */,
+				801D624F2118540C0096B35F /* DCActivityViewController.m in Sources */,
+				801D6259211859A60096B35F /* UIView+Extension.m in Sources */,
+				80E011D4211ACF3B002B199F /* DCPopView.m in Sources */,
+				801D6262211860A40096B35F /* DCGuideViewController.m in Sources */,
+				801D6249211853B20096B35F /* DCTabBarController.m in Sources */,
+				801D6252211854120096B35F /* DCMineViewController.m in Sources */,
+				801D6212211852820096B35F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801D6221211852860096B35F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801D622A211852860096B35F /* _____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801D622C211852860096B35F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801D6235211852860096B35F /* _____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		801D6227211852860096B35F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 801D620C211852820096B35F /* 引导页提示 */;
+			targetProxy = 801D6226211852860096B35F /* PBXContainerItemProxy */;
+		};
+		801D6232211852860096B35F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 801D620C211852820096B35F /* 引导页提示 */;
+			targetProxy = 801D6231211852860096B35F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		801D6237211852860096B35F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		801D6238211852860096B35F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		801D623A211852860096B35F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 993CD2735C58EB854AFA496E /* Pods-引导页提示.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M73FT4GVKP;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/引导页提示/PrefixHeader.pch";
+				INFOPLIST_FILE = "引导页提示/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.hyundai.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		801D623B211852860096B35F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C60F2089C22361452FF5CA4C /* Pods-引导页提示.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M73FT4GVKP;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/引导页提示/PrefixHeader.pch";
+				INFOPLIST_FILE = "引导页提示/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.hyundai.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		801D623D211852860096B35F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M73FT4GVKP;
+				INFOPLIST_FILE = "引导页提示Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.hyundai.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/引导页提示.app/引导页提示";
+			};
+			name = Debug;
+		};
+		801D623E211852860096B35F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M73FT4GVKP;
+				INFOPLIST_FILE = "引导页提示Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.hyundai.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/引导页提示.app/引导页提示";
+			};
+			name = Release;
+		};
+		801D6240211852860096B35F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M73FT4GVKP;
+				INFOPLIST_FILE = "引导页提示UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.hyundai.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "引导页提示";
+			};
+			name = Debug;
+		};
+		801D6241211852860096B35F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M73FT4GVKP;
+				INFOPLIST_FILE = "引导页提示UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.hyundai.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "引导页提示";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		801D6208211852820096B35F /* Build configuration list for PBXProject "引导页提示" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				801D6237211852860096B35F /* Debug */,
+				801D6238211852860096B35F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		801D6239211852860096B35F /* Build configuration list for PBXNativeTarget "引导页提示" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				801D623A211852860096B35F /* Debug */,
+				801D623B211852860096B35F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		801D623C211852860096B35F /* Build configuration list for PBXNativeTarget "引导页提示Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				801D623D211852860096B35F /* Debug */,
+				801D623E211852860096B35F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		801D623F211852860096B35F /* Build configuration list for PBXNativeTarget "引导页提示UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				801D6240211852860096B35F /* Debug */,
+				801D6241211852860096B35F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 801D6205211852820096B35F /* Project object */;
+}
